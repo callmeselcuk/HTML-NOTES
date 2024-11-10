@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Formu</title>
+</head>
+<body>
+    <header>
+        <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+        <hr>
+    </header>
+    <main>
+        <form>
+        <div>
+            <h2>Hesap Bilgileriniz</h2>
+            <table> 
+                <tr>
+                    <td width="130px"><label for="name">Kullanıcı Adı :</label></td>
+                    <td width="50px"></td>
+                    <td>
+                        <input type="text" id="name" placeholder="Kullanıcı Adı Giriniz...">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="eposta">Eposta :</label></td>
+                    <td width="50px"></td>
+                    <td>
+                        <input type="email" id="eposta" placeholder="Eposta adresinizi giriniz..">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="parola">Şifrenizi Giriniz :</label></td>
+                    <td width="50px"></td>
+                    <td>
+                        <input type="password" id="parola" placeholder="Şifrenizi Giriniz...">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2>Kişisel Bilgileriniz</h2>
+            <table>
+                <tr>
+                    <td width="130px"><label for="ad">Adınız :</label></td>
+                    <td width="50px"></td>
+                    <td>
+                        <input type="text" id="ad" placeholder="Adınızı giriniz...">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="sad">Soyadınızı Giriniz :</label></td>
+                    <td width="50px"></td>
+                    <td>
+                        <input type="text" id="sad" placeholder="Soyadınızı Giriniz...">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="city">Şehir :</label></td>
+                    <td width="50px"></td>
+                    <td>
+                        <select id="city">
+                            <option value="06">Ankara</option>
+                            <option value="01">Adana</option>
+                            <option value="34">İstanbul</option>
+                            <option value="19">Çorum</option>
+                            <option value="71">Kırıkkale</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label name="cinsiyet">Cinsiyet :</label></td>
+                    <td width="50px"></td>
+                    <td>
+                        <input type="radio" id="e" name="cinsiyet">
+                        <label for="e">Erkek</label>
+                        <input type="radio" id="k" name="cinsiyet">
+                        <label for="k">Kadın</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Hobileriniz :</label></td>
+                    <td width="50px"></td>
+                    <td>
+                        <input type="checkbox" id="sn">
+                        <label for="sn">Sinema</label>
+                        <input type="checkbox" id="gezmek">
+                        <label for="gezmek">Gezmek</label>
+                        <input type="checkbox" id="spor">
+                        <label for="spor">Spor</label>
+                        <input type="checkbox" id="kitap">
+                        <label for="kitap">Kitap</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td width="50px"></td>
+                    <td>
+                        <button type="submit" onclick="alert('Başarılı bir şekilde kaydedilmiştir.')">Kaydet</button>
+                        <button type="reset">Temizle</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </form>
+    </main>
+</body>
+</html>
